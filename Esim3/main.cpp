@@ -6,7 +6,8 @@ using namespace std;
 int main() {
   int num;
   int result;
-  cout << "lasketaan kertoma!" << endl;
+  int n, k;
+  /*cout << "lasketaan kertoma!" << endl;
   cout << "Anna positiivinen kokonaisluku" << endl;
   cin >> num;
   result = factorial(num);
@@ -15,6 +16,14 @@ int main() {
   } else {
     cout << "Luvun " << num << " kertomoma=" << result << endl;
   }
+*/
+
+  cout<<"Anna n "<<endl;
+  cin>>n;
+  cout<<"Anna k"<<endl;
+  cin>>k;
+  result=coefficient(n,k);
+  cout<<n<<" yli "<<k<<" = "<<result<<endl;
 
   return 0;
 }
